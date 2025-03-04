@@ -1,0 +1,311 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----Header---- */
+
+header nav ul li{
+    list-style: none;
+}
+
+.section-principal {
+    padding: 15px 15px;
+}
+
+.wrp-navb{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrap-nav-{
+    display: flex;
+    gap: 60%;
+}
+
+.wrp-nav{
+
+    justify-content: center;
+}
+
+.section-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    gap: 15px;
+}
+
+.section-a {
+    text-decoration: none;
+    color: black;
+    font-size: 15.5px;
+    padding: 10px 15px;
+    background-color:rgb(11, 255, 94);
+    border-radius: 10px;
+}
+
+.section-a:hover {
+    background-color: transparent;
+    border: 1px solid rgb(11, 255, 94);
+    cursor: pointer;
+    color: rgb(11, 255, 94);
+}
+
+.section-logo-{
+    font-size: 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+.img-border{
+    width: 180px;
+    height: 180px;
+    border-radius: 536px;
+}
+
+/*-----Cuerpo Section----- */
+
+.wrapp-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 85px;
+}
+
+.wrapp-div{
+    display: flex;
+    justify-content:center;
+    gap: 210px;
+  }
+
+  .img-perfil{
+      width: 200px;
+      height: 200px;
+      border-radius: 200px;
+  }
+
+  .wrapp-card {
+      border: 1px black solid;
+      border-radius: 12px;
+      width: 400px;
+
+  }
+
+  .wrapp-card-infor{
+      display: grid;
+      place-items: center;
+      padding: 30px;
+  }
+
+  .wrapp-flex-arg {
+      display: flex;
+      gap: 8px;
+  }
+  
+  .wrapp-parrafo {
+      font-size: 16px;
+  }
+
+  .wrapp-item-2 {
+      padding-top: 15px;
+      display: flex;
+      gap: 25px;
+  }
+  
+
+  .wrapp-text {
+    inline-size: 700px;
+}
+
+.wrapp-div-caja-2 {
+    display: flex;
+    align-items: center;
+}
+
+.subtitulo{
+    font-size: 85px;
+}
+
+.verde {
+    color: rgb(11, 255, 94);
+}
+
+ .h4-text-subti{
+    font-size: 35px;
+    padding-top: 15px;
+}
+.-caja-btn{
+    padding-top: 30px;
+}
+
+.-parrafo-btn{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.btn-sobre-mi:hover {
+    background-color: rgb(11, 255, 94);
+    cursor: pointer;
+    outline-offset: 4px;
+    color: rgb(11, 255, 94);
+}
+
+.btn-sobre-mi{
+    border: none;
+    outline: 2px solid black;
+    border-radius: 4px;
+    padding: 15px 25px;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+
+/* Caja de iconos &  información */
+.wrapp-caja-flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 85px;
+    gap: 15px;
+    align-items: center;
+}
+
+.wrapp-icono{
+    display: flex;
+    gap: 50px;
+
+}
+
+.iconos-{
+    color:rgb(0, 0, 0);
+    display: flex;
+    column-gap: 25px;
+}
+
+
+.icons{
+    display: inline-flex;
+    align-items: center;;
+    padding-left: 9px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    outline: 2px solid black;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.icons:hover{
+    outline-offset: 4px;
+    background-color:  rgb(11, 255, 94);
+    cursor: pointer;
+}
+
+.wrapp-prf{
+    padding-top: 25px;
+    font-size: 20px;
+    color: gray;
+}
+
+.wrapp-li-{
+    display: flex;
+    gap: 5px;
+}
+
+.wrapp-item-li{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-btn{
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 1px solid #000;
+}
+
+.section-subtitulo-1 {
+    font-size: 48px;
+}
+
+.section-subtitulo-2 {
+    font-size: 38px;
+}
+
+
+.section-p {
+    font-size: 15px;
+}
+
+.section-iconos {
+    width: 35px;
+}
+
+/* Sobre mi */
+
+.item- {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.wrapp-div {
+    padding: 60px 40px;
+    padding-top: 85px;
+}
+
+.wrapp-contened-text{
+padding-top: 85px;
+}
+
+.section-subtitulo- {
+    font-size: 35px;
+}
+
+.wrapp-text {
+    padding-top: 30px;
+}
+
+.section-img-ilustracion{
+    width: 30%;
+}
+
+
+/* liena */
+
+.wrapper-div-1 {
+    display: grid;
+    grid-template-columns: repeat( 2fr fr);
+    padding-top: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.linea-gris {
+    padding: 0;
+    margin: 12px;
+    border-bottom: 1px solid rgb(11, 255, 94);
+    padding-bottom: 5px;
+}
+
+/* section habilidad */
+
+.section-iconos- {
+    width: 50px;
+}
+
+.section-p- {
+    font-size: 18px;
+}
+
