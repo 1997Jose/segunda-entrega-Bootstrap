@@ -7,11 +7,13 @@
 }
 
 
-/* -----Header---- */
+/* -----Header Navbar---- */
 
 .section-padding{
-    padding: 100px  0;
+    padding: 100px 0;
+    margin: 0px;
 }
+
 .navbar-nav a {
     font-size: 15px;
     text-transform: uppercase;
@@ -36,10 +38,6 @@
     color: #000;
 }
 
-.w-100{
-    height: 100vh;
-}
-
 /* responsive css */
 
 @media only screen and (max-width:767px){
@@ -48,160 +46,20 @@
     }
 }
 
-/* Footer */
-.social{
-    padding: 0;
-}
-
-h4{
-    padding: 15px 0px;
-}
-
-/* footer */
-
-footer {
-    background-color: rgb(226, 226, 226);
-}
-.social li {
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
-    padding: 0cm;
-}
-
-.social li a i {
-    padding-top: 4px;
-    color: #000;
-    transition: .3s;
-    font-size: 25px;
-}
-
-.social li a i:hover{
-    color: rgb(11, 255, 94);
-    text-decoration: none;
-}
-
-.footer .links ul{
-    list-style-type: none;
-}
-
-.footer .links li a {
-    color: #000;
-    transition: color 0.2s;
-}
-
-.footer .links li a:hoover{
-    text-decoration: none;
-    color: rgb(11, 255, 94);
-}
-
-/* fin footer */
-
-
-header nav ul li{
-    list-style: none;
-}
-
-.footer .location i {
-    font-size: 18px;
-}
-
-.footer .copyright p{
-    font-size: 1.rem;
-    text-shadow: 1px 1px solid rgb(11, 255, 94);
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-}
-
-.section-principal {
-    padding: 15px 15px;
-}
-
-
-.section-nav{
-    display: flex;
-    justify-content: space-around;
-}
-
-.section-nav {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
-    gap: 15px;
-}
-
-
-
-.section-a {
-    text-decoration: none;
-    color: black;
-    font-size: 15.5px;
-    padding: 10px 15px;
-    background-color:rgb(11, 255, 94);
-    border-radius: 10px;
-}
-
-.section-a:hover {
-    background-color: transparent;
-    border: 1px solid rgb(11, 255, 94);
-    cursor: pointer;
-    color: rgb(11, 255, 94);
-}
-
-.section-logo-{
-    font-size: 50px;
-    text-decoration: none;
-    color: #000;
-}
-
-.wrapp-a {
-    text-decoration: none;
-    color: #000;
-}
-
-.img-border{
-    width: 180px;
-    height: 180px;
-    border-radius: 536px;
-}
-
-/*-----Cuerpo Section----- */
-
-.wrapp-section {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 85px;
-}
-
-.wrapp-div{
-    display: flex;
-    justify-content:center;
-    gap: 210px;
-  }
+/*-----Cuerpo Section Inicio----- */
 
   .img-perfil{
       width: 200px;
       height: 200px;
       border-radius: 200px;
   }
-
-  .wrapp-card {
-      border: 1px black solid;
-      border-radius: 12px;
-      width: 400px;
-
-  }
-
+  
   .wrapp-card-infor{
       display: grid;
       place-items: center;
       padding: 30px;
   }
+
 
   .wrapp-flex-arg {
       display: flex;
@@ -223,13 +81,8 @@ header nav ul li{
     inline-size: 700px;
 }
 
-.wrapp-div-caja-2 {
-    display: flex;
-    align-items: center;
-}
-
 .subtitulo{
-    font-size: 85px;
+    font-size: 60px;
 }
 
 .verde {
@@ -237,7 +90,8 @@ header nav ul li{
 }
 
  .h4-text-subti{
-    font-size: 35px;
+     font-weight: bold;
+    font-size: 33px;
     padding-top: 15px;
 }
 .-caja-btn{
@@ -252,7 +106,7 @@ header nav ul li{
 
 
 .btn-sobre-mi:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(11, 255, 94);
     cursor: pointer;
     outline-offset: 4px;
     color: rgb(0, 0, 0);
@@ -267,8 +121,24 @@ header nav ul li{
     transition-duration: 0.25s;
 }
 
+.wrapp-sectiones{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    align-items: center;
+}
 
-/* Caja de iconos &  información */
+/* .img- {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+} */
+
+/* Final de section de imicio */
+
+
+/* Caja de iconos */
+
 .wrapp-caja-flex{
     display: flex;
     justify-content: space-evenly;
@@ -283,23 +153,40 @@ header nav ul li{
 
 }
 
-.iconos-{
-    color:rgb(0, 0, 0);
-    display: flex;
-    column-gap: 25px;
-}
-
-
 .icons{
-    display: inline-flex;
-    align-items: center;;
-    padding-left: 9px;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    outline: 2px solid black;
+    display:flex;
+    align-items: center;
+    right: 0px;
+    padding-left: 5px;
+    border-radius: 60%;
+    width: 48px;
+    height: 48px;
+    outline: 2px solid rgb(11, 255, 94);
     transition-property: outline-offset, outline-color, background-color;
     transition-duration: 0.25s;
+}
+
+.icon-1{
+    padding-left: 4.1px;
+}
+
+.icon-1{
+    color: #000;
+    font-size: 30.1px;
+}
+
+.icon-2{
+    padding-left: 4.1px;
+}
+
+.icon-2{
+    color: #000;
+    font-size: 30.1px;
+}
+
+.icon{
+    color: #000;
+    font-size: 30.1px;
 }
 
 .icons:hover{
@@ -326,110 +213,60 @@ header nav ul li{
     justify-content: center;
 }
 
-
 .section-btn{
     text-decoration: none;
     color: black;
 
 }
 
-.btn {
-    padding: 10px 15px;
-    border: 1px solid #000;
+/* final de iconos */
+
+/* footer */
+
+footer {
+    background-color: rgb(255 255 255);
 }
-
-.section-subtitulo-1 {
-    font-size: 48px;
-}
-
-.section-subtitulo-2 {
-    font-size: 38px;
-}
-
-
-.section-p {
-    font-size: 15px;
-}
-
-.section-iconos {
+.social li {
+    display: inline-block;
+    color: rgb(0, 0, 0);
     width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    padding: 0cm;
 }
 
-/* Sobre mi */
-
-.item- {
-    display: flex;
-    justify-content: center;
-    gap: 75px;
+.social li a i {
+    padding-top: 4px;
+    color: #000;
+    transition: .3s;
+    font-size: 25px;
 }
 
-.wrapp-div {
-    padding: 60px 40px;
-    padding-top: 85px;
+.social li a i:hover{
+    color: rgb(11, 255, 94);
 }
 
-.wrapp-contened-text{
-padding-top: 85px;
+.footer .links ul{
+    list-style-type: none;
 }
 
-.section-subtitulo- {
-    font-size: 35px;
+ul a {
+    text-decoration: none;
 }
 
-.wrapp-text {
-    padding-top: 30px;
-}
-
-.section-img-ilustracion{
-    width: 30%;
-}
-
-
-/* liena */
-
-.wrapper-div-1 {
-    display: grid;
-    grid-template-columns: repeat( 2fr fr);
-    padding-top: 60px;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.linea-gris {
-    padding: 0;
-    margin: 12px;
-    border-bottom: 1px solid rgb(11, 255, 94);
-    padding-bottom: 5px;
-}
-
-.wrapp-parrafo{
-    display: flex;
-}
-
-.column-wrapp{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    place-items: center;
-    padding: 60px 40px;
-}
-
-/* section habilidad */
-
-.section-iconos- {
-    width: 50px;
-}
-
-.section-p- {
-    font-size: 18px;
-}
-.wrap-flex {
-    display: flex;
-}
-
-.navbarSupportedContent {
-    height: 100%;
-    background-color: aqua;
+.footer .links li a {
+    color: #000;
+    transition: color 0.2s;
 }
 
 
+.footer .copyright p{
+    font-size: 1.rem;
+    text-shadow: 1px 1px solid rgb(0, 0, 0);
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
 
+/* fin footer */
