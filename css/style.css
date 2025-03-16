@@ -310,7 +310,7 @@ ul a {
 }
 
 .left{
-    background-color: rgba(11, 255, 92, 0.993);
+    background-color: rgba(61, 209, 110, 0.472);
     padding: 200px 93px;
 }
 
@@ -360,7 +360,7 @@ ul a {
     background-color: #252525;
 }
 
-@media(mia-width:767){
+@media(max-width:767px){
     .left{
         padding: 90px 15px;
         text-align: center;
